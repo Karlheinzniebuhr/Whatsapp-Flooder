@@ -10,8 +10,8 @@
   "manifest_version": 2,
 
   "name": "Whatsapp bomb",
-  "description": "This extension allows you to send a whatsapp message bomb.",
-  "version": "1.0",
+  "description": "This extension allows you to send whatsapp bombs.",
+  "version": "3",
   "homepage_url": "https://github.com/Karlheinzniebuhr/Whatsapp-Bomb",
 
 

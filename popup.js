@@ -16,7 +16,9 @@ var text = document.createTextNode("BOMB");
 btn.appendChild(text);
 
 btn.style.backgroundColor = 'red';
-btn.style.padding = "5px 3px 5px 3px";
+btn.style.padding = "5px 30px 5px 30px";
+btn.style.borderRadius = "25px";
+btn.style.margin = "5px";
 
 btn.onclick = function() {bomb()};
 
