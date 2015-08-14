@@ -1,10 +1,18 @@
 {
+  
+     "content_scripts": [ {
+      "js": [ "inject.js" ],
+      "matches": [ "https://web.whatsapp.com/*" ],
+      "run_at": "document_end"
+   }],
+
+
   "manifest_version": 2,
 
   "name": "Whatsapp bomb",
   "description": "This extension allows you to send a whatsapp message bomb.",
   "version": "1.0",
-  "homepage_url": "www.github.com",
+  "homepage_url": "https://github.com/Karlheinzniebuhr/Whatsapp-Bomb",
 
 
   "browser_action": {
@@ -12,8 +20,7 @@
    "default_popup": "popup.html"
   },
   "permissions": [ "https://web.whatsapp.com" ],
-  "update_url": "https://clients2.google.com/service/update2/crx"
-  
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "web_accessible_resources": [ "inject.js", "popup.js", "popup.html" ]
 }
-
 
