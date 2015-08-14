@@ -9,9 +9,9 @@
 
   "manifest_version": 2,
 
-  "name": "Whatsapp bomb",
-  "description": "This extension allows you to send whatsapp bombs.",
-  "version": "4",
+  "name": "Whatsapp Flooder",
+  "description": "This extension allows you to flood whatsapp users with messages.",
+  "version": "5",
   "homepage_url": "https://github.com/Karlheinzniebuhr/Whatsapp-Bomb",
 
 

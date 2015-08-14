@@ -80,7 +80,7 @@ var i = 0;
 
 var timer = setInterval( function(){
    var evt = document.createEvent("TextEvent");    
-   evt.initTextEvent ("textInput", true, true, window, message + i , 0, "en-US");  // initTextEvent(eventType, true ,true , window , Your TEXT ,0 , "en-US" )
+   evt.initTextEvent ("textInput", true, true, window, message , 0, "en-US");  // initTextEvent(eventType, true ,true , window , Your TEXT ,0 , "en-US" )
    document.querySelector(".input-container .input").focus();							//target.focus()
    document.querySelector(".input-container .input").dispatchEvent(evt);					//target.dispatch(event)
      i++;
